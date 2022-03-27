@@ -1,6 +1,6 @@
 
 server <- function(input, output, session) {
-    players <- read_rds("nba-app/player-list.rds")
+    players <- read_rds("player-list.rds")
     
     date_search_summary_stats_start <- reactive({
         input$date_search_summary_stats[1]

@@ -17,9 +17,7 @@ suppressPackageStartupMessages({
     library(lubridate)
 })
 
-setwd(here::here())
-
-source("nba-app/helpers.R")
+source("helpers.R")
 
 ui <- dashboardPage(
     skin = "red",
